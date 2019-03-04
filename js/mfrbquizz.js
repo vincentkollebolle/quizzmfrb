@@ -60,13 +60,10 @@ var myFullpage = new fullpage('#fullpage', {
       //update counter
       if($(this).hasClass( "hamster" )) {
         score.hamster++;
-        updateCounter();
       } else if ($(this).hasClass( "philo" )) {
         score.philo++;
-        updateCounter();
       } else if ($(this).hasClass( "surf" )) {
         score.surf++;
-        updateCounter();
       } else if ($(this).hasClass( "robot" )) {
         score.robot++;
           
@@ -86,8 +83,8 @@ var myFullpage = new fullpage('#fullpage', {
           fullpage_api.moveTo('robot', 1);
         } else if(result == "philo") {
           fullpage_api.moveTo('philo', 1);
-        } else if(result == "surfer") {
-          fullpage_api.moveTo('surfer', 1);
+        } else if(result == "surf") {
+          fullpage_api.moveTo('surf', 1);
         }
         
       } else {

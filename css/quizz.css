@@ -85,6 +85,10 @@ p{
 	border-radius: 10px;
 	font-weight: bold;
 }
+.btn:hover {
+	background: rgba(255,255,255, 1);
+	cursor: pointer;
+}
 #menu li {
 	display:inline-block;
 	margin: 10px;
