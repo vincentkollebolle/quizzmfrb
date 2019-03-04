@@ -10,8 +10,8 @@
 	<meta name="Resource-type" content="Document" />
 
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="node_modules/fullpage.js/dist/fullpage.css" />
-	<link rel="stylesheet" type="text/css" href="css/quizz.css" />
+  <link rel="stylesheet" type="text/css" href="node_modules/fullpage.js/dist/fullpage.css" />
+  <link rel="stylesheet" type="text/css" href="css/quizz.css" />
 
 	<!--[if IE]>
 		<script type="text/javascript">
@@ -26,17 +26,17 @@
         Hamster: <span id="hamsterCounterValue">0</span>
       </a>
     </li>
-   <li>
+    <li>
       <a id="robotCounter">
         Robot: <span id="robotCounterValue">0</span>
       </a>
     </li>
-   <li>
+    <li>
       <a id="surfCounter">
         Surf: <span id="surfCounterValue">0</span>
       </a>
     </li>
-   <li>
+    <li>
       <a id="philoCounter">
         Philo: <span id="philoCounterValue">0</span>
       </a>
@@ -44,7 +44,7 @@
   </ul>
   
   <!-- InTRO -->
-   <div id="fullpage">
+  <div id="fullpage">
    <div class="section " id="section0" >
     <img src="imgs/logoMFRBnoirBig.png" alt="logo MFRB" style="width:30%" />
     <h1>Et vous, vous en êtes où avec le travail ?</h1>
@@ -55,8 +55,11 @@
   <!--Q1-->
   <div class="section" id="section1">
     <div class="intro">
-     <h1>Question 1 / Le matin, je suis plutôt</h1>
-     <p>
+     <h1>
+      <span class="questionNumber">Question 1</span><br /> 
+      Le matin, je suis plutôt
+    </h1>
+    <p>
       <ul>
         <li><a class="btn btn-next hamster">Réveil à 6h et café noir</a></li>
         <li><a class="btn btn-next philo">Un thé vert et 30 min de méditation avant d'aller au travail</a></li>
@@ -69,79 +72,94 @@
   <!--Q2-->
   <div class="section" id="section2">
     <div class="intro">
-     <h1>Question 2 / Quand j'arrive au travail</h1>
-     <p>
-        <ul>
-          <li><a class="btn btn-next philo">Je suis motivé.e mais sans plus</a></li>
-          <li><a class="btn btn-next hamster">Je suis sur-motivé.e</a></li>
-          <li><a class="btn btn-next robot">Bah j'y suis quoi</a></li>
-          <li><a class="btn btn-next surf">Je n'ai pas de travail, à quoi bon ?</a></li>
-        </ul>
-      </p>
-    </div>
+     <h1>
+      <span class="questionNumber">Question 2</span><br /> 
+      Quand j'arrive au travail
+    </h1>
+    <p>
+      <ul>
+        <li><a class="btn btn-next philo">Je suis motivé.e mais sans plus</a></li>
+        <li><a class="btn btn-next hamster">Je suis sur-motivé.e</a></li>
+        <li><a class="btn btn-next robot">Bah j'y suis quoi</a></li>
+        <li><a class="btn btn-next surf">Je n'ai pas de travail, à quoi bon ?</a></li>
+      </ul>
+    </p>
   </div>
+</div>
 
-  <!--Q3-->
-  <div class="section" id="section3">
-    <div class="intro">
-     <h1>Question 3 / Au boulot, je suis</h1>
-     <p>
-        <ul>
-          <li><a class="btn btn-next philo">Mitigé.e, j'aime mon emploi mais la contrainte qu'il représente me pèse</a></li>
-          <li><a class="btn btn-next hamster">Toujours en avance, sur plusieurs projets en même temps, le temps c'est de l'argent</a></li>
-          <li><a class="btn btn-next robot">En pause clope toutes les heures, c'est dur de rester concentré.e sur des tâches peu stimulantes</a></li>
-          <li><a class="btn btn-next surf">Absent.e</a></li>
-        </ul>
-      </p>
-    </div>
-  </div>
+<!--Q3-->
+<div class="section" id="section3">
+  <div class="intro">
+   <h1>
+    <span class="questionNumber">Question 3</span><br /> 
+    Au boulot, je suis
+  </h1>
+  <p>
+    <ul>
+      <li><a class="btn btn-next philo">Mitigé.e, j'aime mon emploi mais la contrainte qu'il représente me pèse</a></li>
+      <li><a class="btn btn-next hamster">Toujours en avance, sur plusieurs projets en même temps, le temps c'est de l'argent</a></li>
+      <li><a class="btn btn-next robot">En pause clope toutes les heures, c'est dur de rester concentré.e sur des tâches peu stimulantes</a></li>
+      <li><a class="btn btn-next surf">Absent.e</a></li>
+    </ul>
+  </p>
+</div>
+</div>
 
-  <!--Q4-->
-  <div class="section" id="section4">
-    <div class="intro">
-     <h1>Question 4 / Pendant mon temps libre, je préfère</h1>
-     <p>
-        <ul>
-          <li><a class="btn btn-next robot">Repas de famille et soirée télé, détente, la routine</a></li>
-          <li><a class="btn btn-next philo">Bénévolat ou week-end en montagne, j'ai besoin de m'évader</a></li>
-          <li><a class="btn btn-next surf">Je n'ai QUE du temps libre</a></li>
-          <li><a class="btn btn-next hamster">Ne pas en avoir, le travail c'est la santé !</a></li>
-        </ul>
-      </p>
-    </div>
-  </div>
+<!--Q4-->
+<div class="section" id="section4">
+  <div class="intro">
+   <h1>
+    <span class="questionNumber">Question 4</span><br /> 
+    Pendant mon temps libre, je préfère
+  </h1>
+  <p>
+    <ul>
+      <li><a class="btn btn-next robot">Repas de famille et soirée télé, détente, la routine</a></li>
+      <li><a class="btn btn-next philo">Bénévolat ou week-end en montagne, j'ai besoin de m'évader</a></li>
+      <li><a class="btn btn-next surf">Je n'ai QUE du temps libre</a></li>
+      <li><a class="btn btn-next hamster">Ne pas en avoir, le travail c'est la santé !</a></li>
+    </ul>
+  </p>
+</div>
+</div>
 
-  <!--Q5-->
-  <div class="section" id="section5">
-    <div class="intro">
-     <h1>Question 5 / Mon ami s'est fait licencier il y a 6 mois et depuis n'a toujours pas d'emploi</h1>
-     <p>
-        <ul>
-          <li><a class="btn btn-next philo">Ce n'est pas de sa faute, le plein-emploi est un mythe, le marché est saturé !</a></li>
-          <li><a class="btn btn-next hamster">Il ne cherche pas assez, c'est un parasite !</a></li>
-          <li><a class="btn btn-next robot">Il doit être frustré de ne pas pouvoir exploiter ses compétences</a></li>
-          <li><a class="btn btn-next surf">Quel chanceux !</a></li>
-        </ul>
-      </p>
-    </div>
-  </div>
+<!--Q5-->
+<div class="section" id="section5">
+  <div class="intro">
+   <h1>
+    <span class="questionNumber">Question 5</span><br /> 
+    Mon ami s'est fait licencier il y a 6 mois et depuis n'a toujours pas d'emploi
+  </h1>
+  <p>
+    <ul>
+      <li><a class="btn btn-next philo">Ce n'est pas de sa faute, le plein-emploi est un mythe, le marché est saturé !</a></li>
+      <li><a class="btn btn-next hamster">Il ne cherche pas assez, c'est un parasite !</a></li>
+      <li><a class="btn btn-next robot">Il doit être frustré de ne pas pouvoir exploiter ses compétences</a></li>
+      <li><a class="btn btn-next surf">Quel chanceux !</a></li>
+    </ul>
+  </p>
+</div>
+</div>
 
-  <!--Q6-->
-  <div class="section" id="section6">
-    <div class="intro">
-     <h1>Question 6 / Si j'avais le choix</h1>
-     <p>
-        <ul>
-          <li>
-            <a class="btn btn-next philo">Je donnerais de mon temps pour des activités qui me passionnent (bénévolat, famille, politique, rando, peinture, sport, spiritualité)</a>
-          </li>
-          <li><a class="btn btn-next hamster">Je ne changerais rien (mais je ne serais pas contre une augmentation)</a></li>
-          <li><a class="btn btn-next surf">9 mois de vacances et 3 mois de RTT</a></li>
-          <li><a class="btn btn-next robot">Je quitterais tout pour partir aux Maldives élever des chimpanzés (y en a bien aux Maldives non ?)</a></li>
-        </ul>
-      </p>
-    </div>
+<!--Q6-->
+<div class="section" id="section6">
+  <div class="intro">
+    <h1>
+      <span class="questionNumber">Question 6</span><br /> 
+      Si j'avais le choix
+    </h1>
+    <p>
+      <ul>
+        <li>
+          <a class="btn btn-next philo">Je donnerais de mon temps pour des activités qui me passionnent (bénévolat, famille, politique, rando, peinture, sport, spiritualité)</a>
+        </li>
+        <li><a class="btn btn-next hamster">Je ne changerais rien (mais je ne serais pas contre une augmentation)</a></li>
+        <li><a class="btn btn-next surf">9 mois de vacances et 3 mois de RTT</a></li>
+        <li><a class="btn btn-next robot">Je quitterais tout pour partir aux Maldives élever des chimpanzés (y en a bien aux Maldives non ?)</a></li>
+      </ul>
+    </p>
   </div>
+</div>
 
 <!-- RESULTATS -->
 <!--surfer/surfeuse-->
@@ -185,22 +203,22 @@
   </div>
 </div>
 
-  <!--philo-->
-  <div class="section" id="section10">
-    <div class="intro">
-      <h1>Vous êtes plutôt : Philosophe</h1>
-      <p>
-        <img src="imgs/philo.jpeg" /><br />
-        Vous êtes sans doute déjà militant.e du MFRB et soit vous ne le savez pas encore soit vous n’êtes pas forcément à jour de votre cotisation ! Le revenu de base ça vous parle et il est temps de venir partager vos convictions et soutenir le MFRB ! Rejoignez nous et faites un don !<br />
-        <a href="https://www.revenudebase.info/donner/" class="btn" target="_blank">Je fais un don !</a>
-      </p>
-    </div>
+<!--philo-->
+<div class="section" id="section10">
+  <div class="intro">
+    <h1>Vous êtes plutôt : Philosophe</h1>
+    <p>
+      <img src="imgs/philo.jpeg" /><br />
+      Vous êtes sans doute déjà militant.e du MFRB et soit vous ne le savez pas encore soit vous n’êtes pas forcément à jour de votre cotisation ! Le revenu de base ça vous parle et il est temps de venir partager vos convictions et soutenir le MFRB ! Rejoignez nous et faites un don !<br />
+      <a href="https://www.revenudebase.info/donner/" class="btn" target="_blank">Je fais un don !</a>
+    </p>
   </div>
 </div>
+</div>
 <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
+src="https://code.jquery.com/jquery-3.3.1.min.js"
+integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+crossorigin="anonymous"></script>
 <script type="text/javascript" src="node_modules/fullpage.js/dist/fullpage.js"></script>
 <script type="text/javascript" src="js/mfrbquizz.js"></script>
 </body>
