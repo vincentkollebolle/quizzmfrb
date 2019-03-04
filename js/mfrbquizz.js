@@ -52,8 +52,8 @@ var myFullpage = new fullpage('#fullpage', {
       $("#surfCounterValue").html(score.surf);
     }
 
-    //on click next step ! 
-    $( ".btn" ).click(function(e) {
+    //if click on .btn.btn-next step ! 
+    $( ".btn.btn-next" ).click(function(e) {
       //prevent default
       e.preventDefault();
       
