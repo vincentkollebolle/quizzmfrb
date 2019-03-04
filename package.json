@@ -1,0 +1,27 @@
+{
+  "name": "quizzmfrb",
+  "version": "1.0.0",
+  "description": "Un quizz pour faire connaître le MFRB",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vincentkollebolle/quizzmfrb.git"
+  },
+  "keywords": [
+    "quizz",
+    "fullpage.js",
+    "mfrb"
+  ],
+  "author": "MFRB",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/vincentkollebolle/quizzmfrb/issues"
+  },
+  "homepage": "https://github.com/vincentkollebolle/quizzmfrb#readme",
+  "dependencies": {
+    "fullpage.js": "^3.0.4"
+  }
+}

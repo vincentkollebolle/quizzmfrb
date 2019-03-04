@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Et vous, vous en êtes où avec le travail ?</title>
+	<meta name="author" content="Matthew Howell" />
+	<meta name="description" content="fullPage continuous scrolling demo." />
+	<meta name="keywords"  content="fullpage,jquery,demo,scroll,loop,continuous" />
+	<meta name="Resource-type" content="Document" />
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="node_modules/fullpage.js/dist/fullpage.css" />
+	<link rel="stylesheet" type="text/css" href="css/quizz.css" />
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+</head>
+<body>
+  <ul id="menu">
+    <li class="active">
+      <a id="hamsterCounter">
+        Hamster: <span id="hamsterCounterValue">0</span>
+      </a>
+    </li>
+   <li>
+      <a id="robotCounter">
+        Robot: <span id="robotCounterValue">0</span>
+      </a>
+    </li>
+   <li>
+      <a id="surfCounter">
+        Surf: <span id="surfCounterValue">0</span>
+      </a>
+    </li>
+   <li>
+      <a id="philoCounter">
+        Philo: <span id="philoCounterValue">0</span>
+      </a>
+    </li>
+  </ul>
+  
+  <!-- InTRO -->
+   <div id="fullpage">
+   <div class="section " id="section0" >
+    <img src="imgs/logoMFRBnoirBig.png" alt="logo MFRB" style="width:30%" />
+    <h1>Et vous, vous en êtes où avec le travail ?</h1>
+    <p><a class="btn">C'est parti !</a></p>
+  </div>
+
+  <!--QUESTION 1 -->
+  <!--Q1-->
+  <div class="section" id="section1">
+    <div class="intro">
+     <h1>Question 1 / Le matin, je suis plutôt</h1>
+     <p>
+      <ul>
+        <li><a class="btn hamster">Réveil à 6h et café noir</a></li>
+        <li><a class="btn philo">Un thé vert et 30 min de méditation avant d'aller au travail</a></li>
+        <li><a class="btn surf">Grasse mat' jusqu'à 11h</a></li>
+        <li><a class="btn robot">Je vis la nuit</a></li>
+      </p>
+    </div>
+  </div>
+  
+  <!--Q2-->
+  <div class="section" id="section2">
+    <div class="intro">
+     <h1>Question 2 / Quand j'arrive au travail</h1>
+     <p>
+        <ul>
+          <li><a class="btn philo">Je suis motivé.e mais sans plus</a></li>
+          <li><a class="btn hamster">Je suis sur-motivé.e</a></li>
+          <li><a class="btn robot">Bah j'y suis quoi</a></li>
+          <li><a class="btn surf">Je n'ai pas de travail, à quoi bon ?</a></li>
+        </ul>
+      </p>
+    </div>
+  </div>
+
+  <!--Q3-->
+  <div class="section" id="section2">
+    <div class="intro">
+     <h1>Question 3 / Au boulot, je suis</h1>
+     <p>
+        <ul>
+          <li><a class="btn philo">Mitigé.e, j'aime mon emploi mais la contrainte qu'il représente me pèse</a></li>
+          <li><a class="btn hamster">Toujours en avance, sur plusieurs projets en même temps, le temps c'est de l'argent</a></li>
+          <li><a class="btn robot">En pause clope toutes les heures, c'est dur de rester concentré.e sur des tâches peu stimulantes</a></li>
+          <li><a class="btn surf">Absent.e</a></li>
+        </ul>
+      </p>
+    </div>
+  </div>
+
+  <!--Q4-->
+  <div class="section" id="section2">
+    <div class="intro">
+     <h1>Question 4 / Pendant mon temps libre, je préfère</h1>
+     <p>
+        <ul>
+          <li><a class="btn robot">Repas de famille et soirée télé, détente, la routine</a></li>
+          <li><a class="btn philo">Bénévolat ou week-end en montagne, j'ai besoin de m'évader</a></li>
+          <li><a class="btn surf">Je n'ai que du temps libre</a></li>
+          <li><a class="btn hamster">Ne pas en avoir, le travail c'est la santé !</a></li>
+        </ul>
+      </p>
+    </div>
+  </div>
+
+  <!--Q5-->
+  <div class="section" id="section2">
+    <div class="intro">
+     <h1>Question 5 / Mon ami s'est fait licencier il y a 6 mois et depuis n'a toujours pas d'emploi</h1>
+     <p>
+        <ul>
+          <li><a class="btn philo">Ce n'est pas de sa faute, le plein-emploi est un mythe, le marché est saturé !</a></li>
+          <li><a class="btn hamster">Il ne cherche pas assez, c'est un parasite !</a></li>
+          <li><a class="btn robot">Il doit être frustré de ne pas pouvoir exploiter ses compétences</a></li>
+          <li><a class="btn surf">Quel chanceux !</a></li>
+        </ul>
+      </p>
+    </div>
+  </div>
+
+  <!--Q6-->
+  <div class="section" id="section2">
+    <div class="intro">
+     <h1>Question 6 / Si j'avais le choix</h1>
+     <p>
+        <ul>
+          <li><a class="btn philo">Je donnerais de mon temps pour des activités qui me passionnent (bénévolat, famille, politique, rando, peinture, sport, spiritualité)</a></li>
+          <li><a class="btn hamster">Je ne changerais rien (mais je ne serais pas contre une augmentation)</a></li>
+          <li><a class="btn surf">9 mois de vacances et 3 mois de RTT</a></li>
+          <li><a class="btn robot">Je quitterais tout pour partir aux Maldives élever des chimpanzés (y en a bien aux Maldives non ?)</a></li>
+        </ul>
+      </p>
+    </div>
+  </div>
+
+<!-- RESULTATS -->
+<!--surfer/surfeuse-->
+<div class="section" id="section3">
+  <div class="intro">
+    <h1>Vous êtes plutôt :Surfer/Surfeuse</h1>
+    <p>
+      <img src="imgs/surf.jpg" /><br />
+      « Oh man ! Cool man !!! » « Le travail c’est la santé, ne rien faire c’est la conserver ».  Vous vous reconnaissez dans ces phrases mais bon faut bien mettre de l’essence dans sa planche. Le revenu de base est peut être pour vous ! <br />
+      On vous en dit plus sur notre site mais là on vous retient pas c’est sans doute bientôt l’apéro ! <br />
+      <a href="https://www.revenudebase.info" class="btn" target="_blank">Revenu de base kézako ?</a>
+    </p>
+  </div>
+</div>
+
+<!--hamster-->
+<div class="section" id="section4">
+  <div class="intro">
+    <h1>Vous êtes plutôt: Hamster</h1>
+    <p>
+      <img src="imgs/hamster.jpg" /><br />
+      Pour vous le travail c’est la vie ! Allez Allez les feignasses au boulot ! Il n’y a pas de sot métier ! (aoutch ma patte vient de se coincer dans la roue…) Seulement des fainéants ! Je veux dire dans le passé… #elle-tourne-vachement-vite-cette-roue<br />
+      À priori le revenu de base n’est pas pour vous ! 
+      Nous vous déconseillons donc fortement de venir le découvrir sur notre site ! Invitez plutôt les gens que vous n’aimez pas à nous faire un don ;) <br />
+      <a href="https://www.revenudebase.info" class="btn" target="_blank">Découvrir quand même !</a>
+    </p>
+  </div>
+</div>
+
+<!--robot-->
+<div class="section" id="section5">
+  <div class="intro">
+    <h1>Vous êtes plutôt : Robot/Robotte</h1>
+    <p>
+      <img src="imgs/robot.png" /><br />
+      « 001001111 » Le travail c’est pas que ça vous plaise mais il faut bien faire quelque chose de sa vie et le prix de l’électricité augmente… alors… #metro-boulot-dodo<br />
+      Clairement il est temps pour vous de découvrir le revenu de base ! 
+      Ps : il n’y a pas de chimpanzé aux Maldives et comme disait une amie, on n’élève pas les chimpanzés.  <br />
+      <a href="https://www.revenudebase.info" class="btn" target="_blank">Je découvre !</a>
+    </p>
+  </div>
+</div>
+
+  <!--philo-->
+  <div class="section" id="section6">
+    <div class="intro">
+      <h1>Vous êtes plutôt : Philosophe</h1>
+      <p>
+        <img src="imgs/philo.jpeg" /><br />
+        Vous êtes sans doute déjà militant.e du MFRB et soit vous ne le savez pas encore soit vous n’êtes pas forcément à jour de votre cotisation ! Le revenu de base ça vous parle et il est temps de venir partager vos convictions et soutenir le MFRB ! Rejoignez nous et faites un don !<br />
+        <a href="https://www.revenudebase.info/donner/" class="btn" target="_blank">Je fais un don !</a>
+      </p>
+    </div>
+  </div>
+</div>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script type="text/javascript" src="node_modules/fullpage.js/dist/fullpage.js"></script>
+<script type="text/javascript" src="js/mfrbquizz.js"></script>
+</body>
+</html>
