@@ -57,6 +57,13 @@ body{
 	width: 960px;
 	position: relative;
 }
+img.logo {
+	width:300px;
+}
+.imgResult {
+	width:300px;
+	margin: 10px;
+}
 h1{
 	font-size: 2em;
 	margin-bottom:20px;
