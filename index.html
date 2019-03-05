@@ -13,9 +13,18 @@
   <meta property="og:title" content="Et vous, vous en êtes où avec le travail ?" />
   <meta property="og:description" content="Un quizz sur votre rapport au travail ;)" />
   <meta property="og:image" content="https://www.revenudebase.info/wp-content/uploads/2016/06/robot_resized.png" />
-
+  <!--GoogleFonts-->
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <!-- fontAweSome-->
+  <link rel="stylesheet" type="text/css" href="node_modules/font-awesome/css/font-awesome.css" />
+  <!--fullpageJS-->
   <link rel="stylesheet" type="text/css" href="node_modules/fullpage.js/dist/fullpage.css" />
+  <!--socialJs-->
+  <link rel="stylesheet" type="text/css" href="node_modules/jssocials/dist/jssocials.css" />
+  <link rel="stylesheet" type="text/css" href="node_modules/jssocials/dist/jssocials-theme-classic.css" />
+   
+
+  <!--customCSS-->
   <link rel="stylesheet" type="text/css" href="css/quizz.css" />
 
 	<!--[if IE]>
@@ -188,7 +197,7 @@
         On vous en dit plus sur notre site mais là on vous retient pas c’est sans doute bientôt l’apéro ! <br />
         <a href="https://www.revenudebase.info" class="btn" target="_blank">Revenu de base kézako ?</a>
       </div>
-      
+      <div class="sharePopup"></div>
     </p>
   </div>
 </div>
@@ -205,7 +214,7 @@
         Nous vous déconseillons donc fortement de venir le découvrir sur notre site ! Invitez plutôt les gens que vous n’aimez pas à nous faire un don ;)<br />
         <a href="https://www.revenudebase.info" class="btn" target="_blank">Découvrir quand même !</a>
       </div>
-      
+      <div class="sharePopup"></div>
     </p>
   </div>
 </div>
@@ -222,7 +231,7 @@
         Ps : il n’y a pas de chimpanzé aux Maldives et comme disait une amie, on n’élève pas les chimpanzés.<br />
         <a href="https://www.revenudebase.info" class="btn" target="_blank">Je découvre !</a>
       </div>
-      
+      <div class="sharePopup"></div>
     </p>
   </div>
 </div>
@@ -238,7 +247,7 @@
         Le revenu de base ça vous parle et il est temps de venir partager vos convictions et soutenir le MFRB ! Rejoignez nous et faites un don !<br />
         <a href="https://www.revenudebase.info/donner/" class="btn" target="_blank">Je fais un don !</a>
       </div>
-      
+      <div class="sharePopup"></div>
     </p>
   </div>
 </div>
@@ -247,7 +256,17 @@
 src="https://code.jquery.com/jquery-3.3.1.min.js"
 integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
 crossorigin="anonymous"></script>
+<!--fullpageJS-->
 <script type="text/javascript" src="node_modules/fullpage.js/dist/fullpage.js"></script>
+<!--jsSocial-->
+<script type="text/javascript" src="node_modules/jssocials/dist/jssocials.min.js"></script>
+<script>
+  $(".sharePopup").jsSocials({
+    shareIn: "popup",
+    shares: ["email", "twitter", "facebook", "whatsapp", "linkedin", "pinterest"]
+});
+</script>
+<!--mfrbquizzjs-->
 <script type="text/javascript" src="js/mfrbquizz.js"></script>
 </body>
 </html>

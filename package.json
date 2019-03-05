@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/vincentkollebolle/quizzmfrb#readme",
   "dependencies": {
-    "fullpage.js": "^3.0.4"
+    "font-awesome": "^4.7.0",
+    "fullpage.js": "^3.0.4",
+    "jssocials": "^1.5.0"
   }
 }
