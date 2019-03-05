@@ -26,15 +26,21 @@ var myFullpage = new fullpage('#fullpage', {
       'philo',
     ],
     menu: '#menu',
-    continuousVertical: true,
+    controlArrows: false,
+    keyboardScrolling: false,
+    keyboardScrolling: false,
+    continuousVertical: false,
     afterLoad: function(anchorLink, index){
-      console.log("AFTER LOAD - anchorLink:" +anchorLink + " index:" +index );
+      //console.log("AFTER LOAD - anchorLink:" +anchorLink + " index:" +index );
     },
     onLeave: function(index, nextIndex, direction){
-      console.log("ONLEAVE - index:" +index + " nextIndex:" +nextIndex  + " direction:" + direction);
+      //console.log("ONLEAVE - index:" +index + " nextIndex:" +nextIndex  + " direction:" + direction);
 
     },
   });
+
+  //forbid scroll with mouse
+  fullpage_api.setAllowScrolling(false);
 
   $( document ).ready(function() {
 
