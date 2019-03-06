@@ -50,6 +50,11 @@ body{
 	font-family: 'Montserrat', sans-serif;
 	color: black;
 }
+.italic {
+	font-style: italic;
+	font-size: 11px;
+}
+	
 .sharePopup {
 	width:10px auto;
 	font-size:12px;
@@ -64,7 +69,7 @@ img.logo {
 	width:300px;
 }
 .imgResult {
-	width:300px;
+	width:250px;
 	margin: 10px;
 }
 h1{
@@ -75,7 +80,7 @@ p{
 	font-size: 2em;
 }
 .intro p{
-	width: 50%;
+	width: 70%;
 	margin: 0 auto;
 	font-size: 1.5em;
 }
@@ -111,7 +116,7 @@ p{
 	padding: 10px;
 	border: 2px solid black;
 	display: inline-block;
-	width: 50%;
+	width: 70%;
 	margin: 10px auto;
 }
 
